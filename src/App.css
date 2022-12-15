@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.box {
+  background: rgb(250, 246, 246);
+  box-shadow: 0px 2px 5px #ccc; 
+  width:40%;
+  padding: 30px 20px;
+  margin: 10px;
+}
+
+.input-block {
+  width: 100%;
+  text-align: left;
+}
+
+.input-block label {
+  margin-top: -5px;
+  font-weight: bold;
+  color: black;
+  font-size: large;
+}
+
+
+.name-input {
+  font: inherit;
+  line-height: inherit;
+  line-height: normal;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  top: 10px;
+}
+.button {
+  width: 150px;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px; 
+  background-color: white;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+}
+  
+.button:hover {
+  border: 2px solid blue;
+  color:blue;
+}
+
+.contact {
+  background: rgb(250, 246, 246);
+  box-shadow: 0px 2px 5px #ccc; 
+  width:40%;
+  padding: 30px 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editButton{
+  background-image: url(./edit.svg);
+  background-size: 100%;
+  background-color: transparent;
+  height: 30px;
+  width:30px;
+}
