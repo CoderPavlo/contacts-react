@@ -9,7 +9,7 @@ function App() {
   const ref = useRef();
 
   function handleRegistration(data){
-    if(data.name!=""){
+    if(data.name!==""){
 
       let contacts = appData.contacts;
       contacts.unshift(data.name);
